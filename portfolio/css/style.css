@@ -1,0 +1,286 @@
+body {
+    margin: 0;
+    background-color: #0b0c10;
+}
+
+body #nav-bar {
+    width: 100%;
+    height: fit-content;
+    background-color: #1f2833;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+    position: fixed;
+}
+
+body #nav-bar div a {
+    text-decoration: none;
+    color: rgb(255, 249, 249);
+    font-size: 22px;
+}
+
+body #home-container {
+    width: 100%;
+    height: 100vh;
+    background-color: #0b0c10;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 12px;
+}
+
+body #home-container img {
+    width: 150px;
+    display: block;
+    border-style: solid;
+    border-radius: 200px;
+    border-color: transparent;
+}
+
+body #home-container h2 {
+    color: rgb(255, 249, 249);
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body #home-container p {
+    color: rgb(255, 249, 249);
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body #about-container {
+    width: 100%;
+    height: 270px;
+    background-color: #1f2833;
+    display: flex;
+    flex-direction: column;
+    padding-left: 40px;
+    padding-top: 20px;
+}
+
+body #about-container h2 {
+    color: rgb(255, 249, 249);
+}
+
+body #about-container p {
+    font-size: 22px;
+    font: caption;
+    color: rgb(255, 249, 249);
+}
+
+body #history-container {
+    width: 100%;
+    height: 160vh;
+    padding-top: 75px;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+
+body #history-container .autocad {
+    width: 400px;
+    height: 70vh;
+    background-color: #c5c6c7;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 10px;
+}
+
+body #history-container .autocad img {
+    width: 100px;
+}
+
+body #history-container .autocad h3 {
+    font: caption;
+    font-size: 21px;
+}
+
+body #history-container .autocad p {
+    font: caption;
+    padding-left: 15px;
+}
+
+body #history-container .solidworks {
+    width: 400px;
+    height: 70vh;
+    background-color: #c5c6c7;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 10px;
+}
+
+body #history-container .solidworks img {
+    width: 100px;
+}
+
+body #history-container .solidworks h3 {
+    font: caption;
+    font-size: 21px;
+}
+
+body #history-container .solidworks p {
+    font: caption;
+    padding-left: 15px;
+}
+
+body #history-container .electirc-basics {
+    width: 400px;
+    height: 70vh;
+    background-color: #c5c6c7;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 10px;
+}
+
+body #history-container .electirc-basics img {
+    width: 170px;
+}
+
+body #history-container .electirc-basics h3 {
+    font: caption;
+    font-size: 21px;
+}
+
+body #history-container .electirc-basics p {
+    font: caption;
+    padding-left: 15px;
+}
+
+body #history-container .ardiuno {
+    width: 400px;
+    height: 70vh;
+    background-color: #c5c6c7;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 10px;
+}
+
+body #history-container .ardiuno img {
+    width: 145px;
+}
+
+body #history-container .ardiuno h3 {
+    font: caption;
+    font-size: 21px;
+}
+
+body #history-container .ardiuno p {
+    font: caption;
+    padding-left: 15px;
+}
+
+body #history-container .competition {
+    width: 400px;
+    height: 70vh;
+    background-color: #c5c6c7;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 10px;
+}
+
+body #history-container .competition img {
+    width: 100px;
+}
+
+body #history-container .competition h3 {
+    font: caption;
+    font-size: 21px;
+}
+
+body #history-container .competition p {
+    font: caption;
+    padding-left: 20px;
+}
+
+body #history-container .ieee {
+    width: 400px;
+    height: 70vh;
+    background-color: #c5c6c7;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 10px;
+}
+
+body #history-container .ieee img {
+    width: 300px;
+}
+
+body #history-container .ieee h3 {
+    font: caption;
+    font-size: 21px;
+}
+
+body #history-container .ieee p {
+    font: caption;
+    padding-left: 20px;
+}
+
+body #contact-container {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+body #contact-container h1 {
+    padding-top: 15px;
+    font: caption;
+    font-size: 50px;
+    color: #45a29e
+}
+
+body #contact-container form {
+    width: 300px;
+    height: 400px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+body #contact-container form label {
+    color: #c5c6c7;
+}
+
+body #contact-container form input {
+    height: 25px;
+    background-color: transparent;
+    border: 4px solid #45a29e;
+    color: #c5c6c7;
+}
+
+body #contact-container form textarea {
+    border: 4px solid #45a29e;
+    background-color: transparent;
+    color: #c5c6c7;
+}
+
+body #contact-container form button {
+    height: 40px;
+    color: #c5c6c7;
+    background-color: #45a29e
+}
+
+body #contact-container .links {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+
+body #contact-container .links a img {
+    width: 45px;
+}
